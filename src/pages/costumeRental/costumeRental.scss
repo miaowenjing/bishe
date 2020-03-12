@@ -1,0 +1,63 @@
+.clothesWrap{
+    .swiperList{
+        position: relative;
+        .site-category{
+            position: absolute;
+            top:0;
+            padding:20px  0;
+            z-index:99;
+            width:230px;
+            height:460px;
+            // border:1px solid red;
+            text-align: left;
+            font-size: 14px;
+            background: rgba(105,101,101,.6);
+           .category-list{
+               list-style: none;
+               padding-left: 20px;
+               color:#fff;
+               line-height: 55px;
+               &:hover{
+                   background-color: #ff6700;
+                   cursor: pointer;
+                   .isFocus{
+                       visibility:visible;
+                   }
+               }
+            //    border:1px solid red;
+            .child{
+                position: absolute;
+                top:0;
+                left:230px;
+                background: #fff;
+                // width:300px;
+                height: 460px;
+                border:1px solid blue;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                li{
+                    // flex:1;
+                    // flex-basis:200px;
+                    align-self: baseline;
+                    border:1px solid blue;
+                    width:200px;
+                    height:100px;
+                    color:#000;
+                    img{
+                        width:30px;
+                    }
+                    p{
+                        display: inline-block;
+                    }
+                }
+            }
+            .isFocus{
+                visibility: hidden;
+            }
+           }   
+           
+        }
+    }
+    
+}

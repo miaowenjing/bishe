@@ -1,0 +1,31 @@
+.header{
+    height:50px;
+    // border:1px solid green;
+    padding:0 30px;
+    color:#000;
+    font-weight: 800;
+    // background-color:rgba(red,0.5);
+    // line-height: 50px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+
+    .logo{
+        // float: left;
+        img{
+            // width:30px;
+            height:30px;
+        }
+    }
+    .links{
+        cursor: pointer;
+        width:400px;
+        display:flex;
+        font-size:12px;
+        span{
+            display: inline-block;
+            flex:1;
+            // border:1px solid red;
+        }
+    }
+}
